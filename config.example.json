@@ -1,0 +1,71 @@
+{
+  "fonts": {
+    "body": "Calibri",
+    "mono": "Consolas"
+  },
+  "colors": {
+    "body": "3B3B3B",
+    "heading1": "1F4E79",
+    "heading2": "2E75B6",
+    "heading3": "3B3B3B",
+    "muted": "595959",
+    "table_header_fill": "1F4E79",
+    "table_header_text": "FFFFFF",
+    "table_band_fill": "F2F2F2",
+    "diagram_fill": "F7F9FC",
+    "diagram_border": "2E75B6",
+    "note_bg": "E7F1FA", "note_border": "2E75B6", "note_text": "1F4E79",
+    "warning_bg": "FFF4E0", "warning_border": "C97A0C", "warning_text": "8A5000",
+    "danger_bg": "FCEAE8", "danger_border": "B3261E", "danger_text": "8C1D14"
+  },
+  "sizes": {
+    "title": 24,
+    "heading1": 16,
+    "heading2": 13,
+    "heading3": 12,
+    "body": 11
+  },
+  "bold": {
+    "title": true,
+    "heading1": true,
+    "heading2": true,
+    "heading3": false
+  },
+  "italic": {
+    "title": false,
+    "heading1": false,
+    "heading2": false,
+    "heading3": true
+  },
+  "spacing": {
+    "body_after_pt": 8,
+    "line_spacing": 1.15
+  },
+  "page": {
+    "margin_in": 1.0,
+    "image_max_width_in": 6.5
+  },
+  "header": {
+    "enabled": true
+  },
+  "footer": {
+    "enabled": true,
+    "text_format": "Page {PAGE} of {NUMPAGES}"
+  },
+  "toc": {
+    "enabled": true
+  },
+  "heading_patterns": {
+    "heading1": ["^\\s*(Part|Section|Phase|Step)\\s+[A-Z0-9]+\\s*[:.\\u2013\\u2014-]"],
+    "heading2": ["^\\s*\\d+[\\).](?!\\d)\\s*\\S"],
+    "heading3": ["^\\s*[a-z]\\)\\s*\\S", "^\\s*\\d+\\.\\d+\\s*\\S"]
+  },
+  "max_heading_length": 100,
+  "bold_line_fallback": true,
+  "bold_line_max_words": 12,
+  "callout_patterns": {
+    "note": ["^\\s*note\\s*:\\s*"],
+    "warning": ["^\\s*(warning|caution)\\s*:\\s*"],
+    "danger": ["^\\s*(danger|critical)\\s*:\\s*"]
+  }
+}
